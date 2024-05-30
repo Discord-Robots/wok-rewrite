@@ -1,3 +1,7 @@
+# handler
+dist
+pnpm-lock.yaml
+
 # Logs
 logs
 *.log

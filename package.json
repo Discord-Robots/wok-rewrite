@@ -1,0 +1,27 @@
+{
+  "name": "wok-rewrite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "private": true,
+  "type": "module",
+  "module": "esnext",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.13",
+    "discord.js": "^14.15.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "imports": {
+    "#utils": [
+      "./dist/Structures/Utils.js"
+    ]
+  }
+}
